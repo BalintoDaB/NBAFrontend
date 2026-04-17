@@ -13,7 +13,7 @@ function App() {
     const fetchYears = async () => {
       try {
         setError("");
-        const res = await fetch("/api/years");
+        const res = await fetch("https://nbastars-backend.jcloud.jedlik.cloud/api/years");
         if (!res.ok) {
           throw new Error("Failed to load years.");
         }
@@ -44,7 +44,7 @@ function App() {
       try {
         setIsLoadingStar(true);
         setError("");
-        const res = await fetch(`/api/star/${selectedYear}`);
+        const res = await fetch(`https://nbastars-backend.jcloud.jedlik.cloud/api/star/${selectedYear}`);
         if (!res.ok) {
           throw new Error("Star not found.");
         }
