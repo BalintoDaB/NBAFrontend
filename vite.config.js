@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {   // Így CORS nélkül hívhatod az API-t.
-      '/api': 'http://localhost:3000'
+      '/api': 'https://nbastars-backend.jcloud.jedlik.cloud/'
     }
   }
 })
