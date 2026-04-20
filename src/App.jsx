@@ -65,7 +65,7 @@ function App() {
   return (
     <main className="page-wrap">
       <section className="star-card">
-        <h1>NBA Star By Year</h1>
+        <h1 className="redh1">NBA Star By Year</h1>
         <p className="subtitle">Choose a year to see the featured NBA star.</p>
 
         <label htmlFor="year" className="field-label">

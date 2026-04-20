@@ -91,6 +91,10 @@
 	color: #111827;
 }
 
+.redh1{
+	color: red;
+}
+
 @media (max-width: 640px) {
 	.star-card {
 		padding: 1.1rem;
